@@ -1,5 +1,4 @@
 "use client";
-import { useRef } from "react";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Header/Navbar";
 import Example from "./Components/Horizontal-scroll";
@@ -7,7 +6,6 @@ import AboutSection from "./Components/Skill/Skills";
 import EmailSection from "./Components/Email/emailSection";
 
 export default function Home() {
-  const sectionRef = useRef(null);
   return (
     <>
       <Navbar />
