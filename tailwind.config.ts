@@ -35,9 +35,7 @@ const config: Config = {
         'background-default':'#111111',
         'border-default':'#424242'
       },
-      fontFamily: {
-        'playfair': ['"Playfair Display"', 'serif'], // Add this line
-      },
+      
       animation: {
         aurora: "aurora 60s linear infinite",
       },
