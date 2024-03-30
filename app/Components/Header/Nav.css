@@ -1,0 +1,18 @@
+.nav-items li:hover{
+    color: white;
+    scale: 1.2;
+    transition: all 0.3s ease-in-out;
+}
+.nav-items li {
+    transition: all 0.3s ease-in-out;
+}
+
+.nav{
+    border-bottom: 1px solid var(--color-border);
+}
+
+.image{
+    border-radius: 8px;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+}
